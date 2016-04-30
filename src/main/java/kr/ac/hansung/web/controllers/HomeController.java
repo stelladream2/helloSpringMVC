@@ -23,7 +23,7 @@ public class HomeController {
 		model.addAttribute("firstname", "bob").addAttribute("lastname", "kim");
 		model.addAttribute("greeting", "hello world!");
 		
-		return "home";
+		return "home";  // physical file name: home.jsp
 	}
 	
 }
