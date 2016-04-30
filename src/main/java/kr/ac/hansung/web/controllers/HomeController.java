@@ -16,7 +16,7 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	//@RequestMapping(value = "/", method = RequestMethod.POST)
-	@RequestMapping("/")
+	@RequestMapping("/" , method = RequestMethod.GET)
 	public String home(ModelMap model, HttpServletRequest request) {
 		
 		System.out.println("home controller loaded");
