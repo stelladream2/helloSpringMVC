@@ -22,6 +22,7 @@ public class HomeController {
 		System.out.println("home controller loaded");
 		model.addAttribute("firstname", "bob").addAttribute("lastname", "kim");
 		model.addAttribute("greeting", "hello world!");
+		System.out.println("home.jsp will be returned");
 		
 		return "home";  
 	}
